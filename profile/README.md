@@ -1,5 +1,3 @@
-# About Xycloo
-
 Hey there! We are a team building projects on the [Stellar Network](https://stellar.org/). Our bigger interest currently lies in Soroban smart contracts, you can take a look at the learning material and example smart contracts in the [soroban-guide repo](https://github.com/xycloo/soroban-guide). If you also want to dig a bit inside Futurenet from your browser or simply want to see some soroban XDR decoding in Rust, you can take a look at the [soroban-explorer repo](https://github.com/xycloo/soroban-explorer).
 
 Besides smart contracts, we also have interest in bringing [sTeX](https://stex.xycloo.com/) to life. It's a cloud LaTeX editor that relies on our decentralized marketplace to publish, and sell documents. sTeX is currently in the candidates for the Stellar Community Fund edition #11, [this is our submission](https://communityfund.stellar.org/projects/stex).
