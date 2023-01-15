@@ -1,4 +1,6 @@
 # `Xycloo Labs`
+![](https://pbs.twimg.com/profile_banners/1472576835049467919/1673298921/1500x500)
+
 We are a team building projects on the [Stellar Network](https://stellar.org/). Our interests lie in decentralized finance and hybrid centralized-decentralized services.
 
 ## Getting Started
