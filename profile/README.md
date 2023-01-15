@@ -1,9 +1,16 @@
-Hey there! We are a team building projects on the [Stellar Network](https://stellar.org/). Our bigger interest currently lies in Soroban smart contracts, you can take a look at the learning material and example smart contracts in the [soroban-guide repo](https://github.com/xycloo/soroban-guide). If you also want to dig a bit inside Futurenet from your browser or simply want to see some soroban XDR decoding in Rust, you can take a look at the [soroban-explorer repo](https://github.com/xycloo/soroban-explorer).
+# `Xycloo Labs`
+We are a team building projects on the [Stellar Network](https://stellar.org/). Our interests lie in decentralized finance and hybrid centralized-decentralized services.
 
-We also are working on [`soroban-analyzer`](https://github.com/xycloo/soroban-analyzer), which is a CLI tool to detect gas inefficiencies in Soroban rust code. Currently it doesn't perform many checks and there may be false positives, but you can try it out already!
+## Getting Started
+- [website](https://xycloo.com/)
+- [twitter](https://twitter.com/xyclooLabs)
+- [discord](https://discord.com/invite/w7fBhSS34Q)
 
-Besides smart contracts, we also have interest in bringing [sTeX](https://stex.xycloo.com/) to life. It's a cloud LaTeX editor that relies on our decentralized marketplace to publish, and sell documents. sTeX is currently in the candidates for the Stellar Community Fund edition #11, [this is our submission](https://communityfund.stellar.org/projects/stex).
+## Repo Index
+- [soroban-guide](https://github.com/xycloo/soroban-guide) - Our resources to learn Soroban.
+- [soroban-explorer](https://github.com/xycloo/soroban-explorer) - Utilites and web apps to explore futurenet.
+- [soroban-analyzer](https://github.com/xycloo/soroban-analyzer) - CLI tool and utilities to detect gas inefficiencies in Soroban rust code.
+- [tmyxer](https://github.com/xycloo/tmyxer) - PoC zk-SNARK XLM coin mixer.
 
-Another interesting project we have worked on, is [Tmyxer](https://github.com/xycloo/tmyxer). It's a proof-of-concept XLM mixer that operates within the network and relies on the groth16 algorithm, which we have implemented in Rust targeting a WASM build [here](https://github.com/xycloo/wasm-groth16-verifier) (thanks to `ark-std, ark-bls12_377, ark-ec, ark-ff` from [arkworks](http://arkworks.rs)!). However, given what has happened with TornadoCash, the mixer is designed to not be used in a production environment, in fact it only allows deposits of 100XLM and uses a very primitive hashing lookup (discussed [here](https://github.com/xycloo/tmyxer#specification)) that by default supports only up to 100 deposits. 
-
-You can also start joining [our discord server](https://discord.com/invite/w7fBhSS34Q), which we will start using actively once we have deployed our first production projects.
+## Other projects
+- [stex](https://stex.xycloo.com/) - LaTeX / Markdown + Mathjax modern cloud editor with a decentralized documents marketplace and on-chain pay-per-view publishing
